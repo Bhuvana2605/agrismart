@@ -5,7 +5,7 @@ import numpy as np
 import plotly.graph_objects as go
 import pandas as pd
 
-st.set_page_config(page_title="Crop Recommendation System", page_icon="🌱", layout="wide")
+st.set_page_config(page_title="AgriSmart:Crop Recommendation System", page_icon="🌱", layout="wide")
 
 # --- Enhanced Custom CSS Styling with Nude Color Theme ---
 st.markdown("""
@@ -261,7 +261,7 @@ st.markdown("""
 # Enhanced Header
 st.markdown("""
 <div class="main-header animated-card">
-    <div class="main-title">🌱 Smart Crop Recommendation Dashboard</div>
+    <div class="main-title">🌱AgriSmart:Smart Crop Recommendation System</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -586,3 +586,4 @@ st.markdown("""
     Try adding downloadable reports, user dashboards, or real-time market integration next!
 </div>
 """, unsafe_allow_html=True)
+
